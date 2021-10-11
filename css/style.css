@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Page Register */
+body{
+    background: url(../img/BG.png) no-repeat;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.nunito{
+    font-family: 'Nunito', sans-serif;
+}
+h4{
+    color: #7C7C7C;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 38px 0;
+}
+h5{
+    font-size: 15px;
+    color: #A4A4A4;
+    line-height: 20px;
+}
+a:hover{
+    text-decoration: none;
+    color: #F79D2D;
+}
+.area-form{
+    margin-top: 98px;
+    width: 323px !important;
+    height: 745px;
+}
+.btn-color{
+    background-color: #F79D2D;
+    color: white;
+    width: 322px;
+    height: 60px;
+    font-size: 25px;
+}
+.btn-color:hover{
+    background: #F97423;
+}
+.form-control{
+    background-color: #f7f7f7;
+    border: none;
+    width: 322px;
+    height: 60px;
+}
+.form-control::placeholder{
+    font-size: 20px;
+    color: #ABABAB;
+}
+.form-group{
+    margin-bottom: 18px;
+}
+.form-check{
+    margin-top: 21px;
+    margin-bottom: 33px;
+}
+.form-check-label{
+    font-size: 14px;
+    line-height: 19px;
+    color: #ABABAB;
+}
+section.area-form span, section.area-login span{
+    font-size: 16px;
+    line-height: 22px;
+    color: #ABABAB;
+    margin-top: 50px;
+}
+.orange{
+    color: #F97423;
+}
+footer{
+    height: 26px;
+    margin-bottom: 88px;
+    margin-top: 77px;
+}
+/* Login */
+.area-login{
+    margin-top: 150px;
+}
